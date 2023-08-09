@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Fundamentos do PHP </title>
+  <link rel="stylesheet" href="formata-formulario.css"> 
+</head> 
+
+<body> 
+ <h1> Fundamentos do PHP - listaL1 - exercicio2 </h1>
+ <form action="recebe-dados.php" method="post">
+  <fieldset>
+   <legend>Processando dados da viagem com PHP</legend>
+
+  
+   <label class="alinha"> Distancia da viagem (em km): </label>
+   <input type="number" name="Distancia" autofocus min="0"<br>
+
+   <label class="alinha"> Consumo do veiculo (km/Litro): </label>
+   <input type="number" name="Consumo" min="0" max="100"<br>
+
+   <label class="alinha"> Preco da gasolina: </label>
+   <input type="number" name="Preco" min="0" max="100" step="0.01"> <br>   
+
+   <button> Calculo das despesas da viagem </button>
+
+    
+
+  </fieldset>
+ </form>
+
+    
+</body> 
+</html> 
